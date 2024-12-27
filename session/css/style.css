@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* h1{
+    background-color: green;
+} */
+
+#title {
+    background-color: red;
+}
+
+.text {
+    background-color: rgb(200, 255, 0);
+}
+
+.para {
+    background-color: royalblue;
+}
+
+/* input{
+    background-color: greenyellow;
+} */
+
+/* input[type=text]{
+
+    background-color: yellow;
+} */
+
+
+.box {
+    /* width: 250px;
+    height: 250px;
+    background-color: hsl(300, 100%, 50%); */
+
+    width: 100%;
+    height: 400px;
+    background-color: green;
+
+    background-image: url(./1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.para1 {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "Poppins", serif;
+    word-spacing: 50px;
+    letter-spacing: 10px;
+    line-height: 100px;
+}
+
+.link {
+    text-decoration: none;
+    color: hsl(0, 100%, 50%);
+}
+
+.box1 {
+    width: 300px;
+    height: 400px;
+    /* border: 1px solid #000; */
+    border-radius: 20px;
+
+    /* box-shadow: 10px 10px 15px gray; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.menu {
+    text-decoration: none;
+    color: green;
+}
+
+.menu:hover {
+    background-color: red;
+}
+
+.line {
+    background-color: crimson;
+    padding: 20px;
+    margin: 20px;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+
+    /* position: relative; */
+    /* top: 20px;
+    right: 30px; */
+
+    /* position: absolute;
+    right: 30px; */
+
+    /* position: fixed; */
+    /* right: 10px; */
+    /* bottom: 10px; */
+}
+
+.box3 {
+    background-color: rgba(255, 0, 0, 0.459);
+    width: 200px;
+    height: 200px;
+
+    position: sticky;
+    top: 0;
+}
+
+.parent {
+    width: 100%;
+    height: 500px;
+    background-color: crimson;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: end; */
+    /* align-items: end; */
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+    margin: 20px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anime-box {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    transition: 1s;
+}
+
+.anime-box:hover {
+    transform: rotate(120deg);
+}
